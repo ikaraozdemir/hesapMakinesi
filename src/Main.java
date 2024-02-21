@@ -19,17 +19,22 @@ public class Main {
         switch (selection) {
             case 1:
                 result = (number1 + number2);
+                System.out.print("The result of the calculation is :" + result);
                 break;
             case 2:
                 result = (number1 - number2);
+                System.out.print("The result of the calculation is :" + result);
                 break;
             case 3:
                 result = (number1 * number2);
+                System.out.print("The result of the calculation is :" + result);
                 break;
             case 4:
                 result = (number1 / number2);
+                System.out.print("The result of the calculation is :" + result);
                 break;
+            default:
+                System.out.print("Wrong number, please try again!");
         }
-        System.out.print("The result of the calculation is :" + result);
     }
 }
